@@ -6,4 +6,4 @@ TMD-26490 Heat Rejection Items Do Not Affect Cooling Zones
 
 ## Test Results
 1. No Cooling Zone is created, modified, or deleted
-2. No dependency or linkage is established
+2. No dependency or linkage is established (?)
