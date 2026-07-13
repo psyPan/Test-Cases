@@ -1,7 +1,7 @@
 TMD-26491 Import Template for Heat Rejection Items
 ## Test Steps
-1. Download Main Import
-2. Review available sheets for Heat Rejection columns
+1. Download Main Import -> Similar Case: TMD-22998
+2. Review available sheets for Heat Rejection columns (Add HVAC Units, Item All Applicable Fields)
 3. Review columns
 
 ## Test Results
