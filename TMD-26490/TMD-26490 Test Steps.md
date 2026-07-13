@@ -26,11 +26,10 @@ TMD-26490 Heat Rejection Items Do Not Affect Cooling Zones
 7. `U Position` : `Above`
 ---
 ## Test Steps
-1. Get All Existing Cooling Zone Items
+1. Get Number Of All Existing Cooling Zone Items, Get `Last Updated On` Value From All Existing Cooling Zone Items
 2. Create Item `HEATREJECTIONITEM26477`
-3. Get All Existing Cooling Zone Items
+3. Get Number Of All Existing Cooling Zone Items, Get `Last Updated On` Value From All Existing Cooling Zone Items
 4. **Verify Cooling Zone Items Are Not Created, Modified Or Deleted**
 5. Delete Item `HEATREJECTIONITEM26477`
-6. Get All Existing Cooling Zone Items
+6. Get Number Of All Existing Cooling Zone Items, Get `Last Updated On` Value From All Existing Cooling Zone Items
 7. **Verify Cooling Zone Items Are Not Created, Modified Or Deleted**
-    - Get Values From `Name`, `Created On`, `Last Updated On` Columns (For Modified Part)
