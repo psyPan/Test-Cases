@@ -1,5 +1,5 @@
 **Goal**
-TMD-26487 Fluid Flow Rate numeric validation
+TMD-26490 Heat Rejection Items Do Not Affect Cooling Zones
 ---
 ## Test Data
 ### Models
@@ -26,16 +26,11 @@ TMD-26487 Fluid Flow Rate numeric validation
 7. `U Position` : `Above`
 ---
 ## Test Steps
-1. Go to Items List Page
-2. Open Item `HeatRejectionItem26477` With Edit Mode
-3. Open Configuration Subtab
-4. Input `Fluid Flow Rate (gpm)` `9.99999`
-5. **Verify Validation Error Is Visible**
-6. Input `Fluid Flow Rate (gpm)` `9999999`
-7. **Verify Validation Error Is Visible**
-8. Input `Fluid Flow Rate (gpm)` `999999.9999`
-9. Click Save Button
-10. **Verify Valid Value Is Allowed**
-11. Delete Value Of `Fluid Flow Rate (gpm)`
-12. Click Save Button
-13. **Verify Blank Value In "Fluid Flow Rate (gpm)" Is Allowed**
+1. Get All Existing Cooling Zone Items
+2. Create Item `HEATREJECTIONITEM26477`
+3. Get All Existing Cooling Zone Items
+4. **Verify Cooling Zone Items Are Not Created, Modified Or Deleted**
+5. Delete Item `HEATREJECTIONITEM26477`
+6. Get All Existing Cooling Zone Items
+7. **Verify Cooling Zone Items Are Not Created, Modified Or Deleted**
+    - Get Values From `Name`, `Created On`, `Last Updated On` Columns (For Modified Part)

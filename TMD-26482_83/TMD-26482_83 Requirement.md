@@ -8,7 +8,7 @@ TMD-26482 Age Derated Percentage Validation
 ## Test Results
 1. System displays validation error for values < 0.1
 2. System displays validation error for values > 100
-3. System accepts values between 0.1 and 100
+3. System accepts values between 0.1 and 100, 100.00
 
 TMD-26483 Age Derated Capacity Calculation
 ## Test Steps
