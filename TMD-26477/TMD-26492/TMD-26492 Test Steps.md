@@ -2,8 +2,7 @@
 TMD-26492 Import Validation Rules
 ---
 ## Test Data
-### Models
-#### Model
+### Model
 1. `Class` : `HVAC`
 2. `Subclass` : `Heat Rejection`
 3. `Make` : `3Com`
@@ -16,7 +15,6 @@ TMD-26492 Import Validation Rules
 10. `Airflow Rate (cfm)` : `100`
 
 ### Items
-#### Item
 1. `Make` : `3Com`
 2. `Model` : `HeatRejectionModel26477`
 3. `Name` : `HEATREJECTIONITEM26492-1`
