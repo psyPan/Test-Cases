@@ -1,4 +1,4 @@
-**Goal**
+**Goal** not needed
 TMD-26490 Heat Rejection Items Do Not Affect Cooling Zones
 ---
 ## Test Data

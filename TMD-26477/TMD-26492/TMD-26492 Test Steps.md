@@ -52,4 +52,4 @@ TMD-26492 Import Validation Rules
 2. Create Item By File Import
 3. **Verify Error Message Is Visible For Invalid Sensible Capacity, Airflow Rate And Fluid Flow Rate Format**
 4. Go To Items List Page
-5. **Verify Item Without Fluid Flow Rate Value Is Created**
+5. **Verify Item Without Fluid Flow Rate Value Is Created** # Don't include Fluid Flow Rate Column in xlsx file

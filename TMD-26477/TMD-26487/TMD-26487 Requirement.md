@@ -5,9 +5,6 @@ TMD-26487 Fluid Flow Rate numeric validation
 3. Leave the field blank
 
 ## Test Results
-1. Validation error for more than 2 decimal places
+1. Validation error for more than 2 decimal places # 4
 2. Valid numeric values are accepted
 3. Blank value is allowed
-
-## Issue Or Not
-![Image](image/TMD-26487.png)
