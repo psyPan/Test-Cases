@@ -30,7 +30,7 @@ TMD-26488 Fluid Flow Rate column visibility in Item List
 (Tag) -> Single Process Only
 1. Open Item `HEATREJECTIONITEM26477` With Edit Mode
 2. Open Configuration Subtab
-3. **Verify Fluid Flow Rate Label displays “Fluid Flow Rate (gpm)”**
+3. **Verify Fluid Flow Rate Label displays “Fluid Flow Rate (gpm)” In Configuration Subtab**
 4. Input Value `Fluid Flow Rate (gpm)`: `100`
 5. Save and Close Item
 6. **Verify "Fluid Flow Rate" Column Is Not Visible In Items List Page**
