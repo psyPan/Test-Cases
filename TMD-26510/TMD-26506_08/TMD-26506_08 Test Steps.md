@@ -5,37 +5,37 @@ TMD-26508 Verify the auto power budget fields
 ## Test Data
 ### Models
 #### Model
-1. `Class` : `HVAC`
-2. `Subclass` : `Cooling Unit`
-3. `Make` : `3Com`
-4. `Model Name` : `CoolingUnitModel26506_08`
-5. `Mounting` : `Rackable`
-6. `Form Factor` : `Fixed`
-7. `Height` : `1`
+- `Class` : `HVAC`
+- `Subclass` : `Cooling Unit`
+- `Make` : `3Com`
+- `Model Name` : `CoolingUnitModel26506_08`
+- `Mounting` : `Rackable`
+- `Form Factor` : `Fixed`
+- `Height` : `1`
 
 ### Item
 #### Create Item
-1. `Make` : `3Com`
-2. `Model` : `CoolingUnitModel26506_08`
-3. `Name` : `COOLINGUNITITEM26506_08`
-4. `Status` : `Planned`
-5. `Location` : `Site A`
-6. `Cabinet` : `1A`
-7. `U Position` : `Above`
+- `Make` : `3Com`
+- `Model` : `CoolingUnitModel26506_08`
+- `Name` : `COOLINGUNITITEM26506_08`
+- `Status` : `Planned`
+- `Location` : `Site A`
+- `Cabinet` : `1A`
+- `U Position` : `Above`
 
 ### Power Supply Port
 #### Create Power Supply Port
-1. `Operation`: `ADD`
-2. `Object`: `POWER-PORT`
-3. `Item Location`: `SITE A`
-4. `Item Name`: `COOLINGUNITITEM26506_08`
-5. `Port Name`: `PS1`
-6. `Port Type`: `Power Supply`
-7. `Phase Type`: `Single Phase (3-Wire)`
-8. `Volts`: `120`
-9. `Power Factor`: `1`
-10. `Watts (N)`: `100`
-11. `Watts (B)`: `60`
+- `Operation`: `ADD`
+- `Object`: `POWER-PORT`
+- `Item Location`: `SITE A`
+- `Item Name`: `COOLINGUNITITEM26506_08`
+- `Port Name`: `PS1`
+- `Port Type`: `Power Supply`
+- `Phase Type`: `Single Phase (3-Wire)`
+- `Volts`: `120`
+- `Power Factor`: `1`
+- `Watts (N)`: `100`
+- `Watts (B)`: `60`
 
 ---
 ## Test Steps

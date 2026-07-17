@@ -13,5 +13,5 @@ On a Cooling unit with 5 Power ports and N+1 redundancy. The ports should be, fo
 2. EP=33, PP=132
 3. EP=66, PP=132
 4. EP=66, PP=132
-5. EP=66, PP=165
+5. EP=66, PP=165 (Items List)
 The fields and values are shown in the Items List also.
