@@ -1,4 +1,4 @@
-TMD-26492 Import Validation Rules
+TMD-26630 Verify Fluid Flow Rate values in Cooling Unit.
 ## Test Steps
 1. Create a Cooling Unit Model. Verify it has a field Fluid Flow Rate which is below the Airflow Rate in the Configuration sub-tab. Add a value. Create an Item – the field should be there and filled with the seed value from the model. Edit the value. Save.
 

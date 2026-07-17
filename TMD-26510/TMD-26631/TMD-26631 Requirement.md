@@ -1,4 +1,4 @@
-TMD-26492 Import Validation Rules
+TMD-26631 Verify Fluid Flow Rate field properties in Cooling Unit.
 ## Test Steps
 1. Verify that in the Model List and Assets List, the field is not shown by default, but can be added via the Show/Hide Columns UI.
 
