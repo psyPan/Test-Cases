@@ -2,9 +2,9 @@ TMD-26631 Verify Fluid Flow Rate field properties in Cooling Unit.
 ## Test Steps
 1. Verify that in the Model List and Assets List, the field is not shown by default, but can be added via the Show/Hide Columns UI.
 
-2. In Settings → Field Management → Standard Fields, the field should be visible for Items and Models.
+2. In Settings → Field Management → Standard Fields, the field should be visible for Items and Models. (Issue or not)
 
-3. In Settings → Field Management → Field Properties, verify that for Items and Models the field has these properties:
+3. In Settings → Field Management → Field Properties, verify that for Items and Models the field has these properties: (Issue or not)
 Required - Unchecked/Editable
 Hidden - Unchecked/Editable
 Default - Allowed/Configurable

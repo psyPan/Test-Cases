@@ -3,32 +3,29 @@ TMD-26506 Verify Potential Power and Effective Power fields for Cooling Unit
 TMD-26508 Verify the auto power budget fields
 ---
 ## Test Data
-### Models
-#### Model
+### Model
 - `Class` : `HVAC`
 - `Subclass` : `Cooling Unit`
 - `Make` : `3Com`
-- `Model Name` : `CoolingUnitModel26506_08`
+- `Model Name` : `CoolingUnitModel26510`
 - `Mounting` : `Rackable`
 - `Form Factor` : `Fixed`
 - `Height` : `1`
 
 ### Item
-#### Create Item
 - `Make` : `3Com`
-- `Model` : `CoolingUnitModel26506_08`
-- `Name` : `COOLINGUNITITEM26506_08`
+- `Model` : `CoolingUnitModel26510`
+- `Name` : `COOLINGUNITITEM26510`
 - `Status` : `Planned`
 - `Location` : `Site A`
 - `Cabinet` : `1A`
 - `U Position` : `Above`
 
 ### Power Supply Port
-#### Create Power Supply Port
 - `Operation`: `ADD`
 - `Object`: `POWER-PORT`
 - `Item Location`: `SITE A`
-- `Item Name`: `COOLINGUNITITEM26506_08`
+- `Item Name`: `COOLINGUNITITEM26510`
 - `Port Name`: `PS1`
 - `Port Type`: `Power Supply`
 - `Phase Type`: `Single Phase (3-Wire)`
