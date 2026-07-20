@@ -15,4 +15,4 @@ TMD-26630 Verify Fluid Flow Rate values in Cooling Unit.
 3. Test the conversion between Gallons and Liters when the Unit system is changed between US and SI (for instance 22 gallons should be about 83 liters)
 
 ## Test Results
-The Fluid Flow Rate field is present and it’s initial value in the Item is determined by the model. The values are correct.
+The Fluid Flow Rate field is present and its initial value in the Item is determined by the model. The values are correct.

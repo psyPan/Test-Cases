@@ -21,7 +21,7 @@ TMD-26630 Verify Fluid Flow Rate values in Cooling Unit.
 - `Cabinet` : `1A`
 - `U Position` : `Above`
 
-### Power Supply Ports For Item `COOLINGUNITITEM26507`
+### Power Supply Ports For Item `COOLINGUNITITEM26510`
 - `Operation` : `ADD`
 - `Object` : `POWER-PORT`
 - `Item Location` : `SITE A`
