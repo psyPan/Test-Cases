@@ -1,3 +1,12 @@
+TMD-26506 Verify Potential Power and Effective Power fields for Cooling Unit
+## Test Steps
+Create a Cooling Unit item and add power supply ports to it.
+Verify that the power supply ports subtab has 2 fields in its header, Potential Power and Effective Power. It should look like in Device items.
+Verify also that the fields show in the Items List (may need adding in the grid via the Show/Hide UI).
+
+## Test Results
+The fields are present.
+
 TMD-26507 Verify the values of Effective Power and Potential Power fields for Cooling Unit
 ## Test Steps
 On a Cooling unit with 5 Power ports and N+1 redundancy. The ports should be, for example, Single Phase (3-wire), 120-240 volts, IEC-320-C14 connector, Watts (N) = 55, Watts(B) = 33. The important number for calculations is the last one, Watts(B)=33. If you make different ports, note that number. Test these combinations:
