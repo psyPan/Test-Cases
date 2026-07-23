@@ -6,10 +6,12 @@ TMD-26582 Verify capacity conversion formulas, auto-population, and recalculatio
 3. Observe the remaining three Capacity fields.
 4. Verify that all other Capacity fields are auto-populated.
 5. Manually calculate the expected converted values using the formulas above.
+   1. kW to tons:   kW number / ( 12,000 X 0.0002930711 )
+   2. tons to kW: tons number X 12,000 X 0.0002930711
 6. Compare the system-calculated values with the expected results.
 7. Edit a different Capacity field (e.g., Nominal Capacity (Tons)).
 8. Observe all remaining Capacity fields again.
-9. Repeat the test by editing each of the remaining Capacity fields one at a time.
+9.  Repeat the test by editing each of the remaining Capacity fields one at a time.
 
 ## Test Result
 When a value is entered into any one of the Capacity fields:

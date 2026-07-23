@@ -12,7 +12,7 @@ Fluid Flow Rate (gpm)
 2. Use the template to import a Heat Rejection model with all fields filled with data
 - after import, check the imported model
 
-3. Export the imported model and make changes, then import again, Verify that chagnes you made are applied succsesfuly
+3. Export the imported model and make changes, then import again, Verify that changes you made are applied succsesfully
 
 ## Test Result
 The Heat Rejection import template contains the new columns. The user can import, export, and make changes and re-import the heat rejection models

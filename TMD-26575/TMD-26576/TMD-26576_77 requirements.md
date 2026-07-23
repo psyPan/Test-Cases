@@ -1,13 +1,34 @@
-TMD-26577 Verify validation, boundaries, and warning behavior for Compensation Factor (%) field
+TMD-26576 Verify that Heat Rejection subclass models have a Specification subtab with all required fields
+## Test step
+1. Create a new Heat Rejection model.
+2. Navigate to the Specification subtab.
+3. Verify that the following fields are displayed:
+-Compensation Factor (%)
+-Nominal Capacity (Tons)
+-Nominal Capacity (kW)
+-Sensible Capacity (Tons)
+-Sensible Capacity (kW)
 
+## Test Result
+The Specification subtab opens successfully without errors.
+All listed fields are visible and correctly labeled:
+-Compensation Factor (%)
+-Nominal Capacity (Tons)
+-Nominal Capacity (kW)
+-Sensible Capacity (Tons)
+-Sensible Capacity (kW)
+No fields are missing, duplicated, or incorrectly named.
+
+---
+TMD-26577 Verify validation, boundaries, and warning behavior for Compensation Factor (%) field
 ## Test step
 1. Locate the Compensation Factor (%) field on the Specification subtab.
 2. Verify that the field is marked as required.
 3. Check boundary values by entering the following values one at a time and attempting to save:
--1 (minimum valid value)
--200 (maximum valid value)
--0 (below minimum)
--201 (above maximum)
+- `1` (minimum valid value)
+- `200` (maximum valid value)
+- `0` (below minimum)
+- `201` (above maximum)
 4. Verify that appropriate validation errors appear for invalid values.
 5. Enter a value greater than 100 and less than or equal to 200 (e.g., 120).
 6. Observe the field behavior after entering the value.

@@ -7,6 +7,8 @@ TMD-26578 Verify auto-calculation of Nominal Capacity (Tons) when Nominal Capaci
 4. Enter a valid numeric value in the Nominal Capacity (kW) field.
 5. Move focus out of the Nominal Capacity (kW) field or save the model.
 6. Observe the Nominal Capacity (Tons) field.
+   1. kW to tons:   kW number / ( 12,000 X 0.0002930711 )
+   2. tons to kW: tons number X 12,000 X 0.0002930711
 
 ## Test Result
 The Nominal Capacity (Tons) field is displayed and is not marked as required.
