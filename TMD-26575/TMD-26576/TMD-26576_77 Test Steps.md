@@ -20,5 +20,17 @@ TMD-26577 Verify validation, boundaries, and warning behavior for Compensation F
 3. Click Specification Subtab
 4. **Verify Certain Fields Under Specification Subtab Are Visible, Correctly Labeled And Not Duplicated In Model Detail**(For Not Duplicated -> Use "Get Element Count")
 5. **Verify Compensation Factor Field Is Marked As Required**
-6. Input `Compensation Factor` `0`
-7. 
+6. Input `Compensation Factor`: `0`
+7. **Verify Validation Error Is Visible**
+8. **Verify Save Button Is Disabled**
+9. Input `Compensation Factor`: `201`
+10. **Verify Validation Error Is Visible**
+11. **Verify Save Button Is Disabled**
+12. Input `Compensation Factor`: `120`
+13. **Verify Warning Icon Is Visible Beside Compensation Factor Label**
+14. Click Save Button
+15. **Verify Model Can be Saved With Compensation Factor Value From 101 To 200**
+16. **Verify Warning Icon Is Not Visible For Compensation Factor Value From 1 To 100**
+    1.  Input `Compensation Factor`: `50`
+    2.  **Verify Warning Icon Is Not Visible Beside Compensation Factor Label**
+    3.  Click Save Button

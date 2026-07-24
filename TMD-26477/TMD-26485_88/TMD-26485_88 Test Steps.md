@@ -3,28 +3,26 @@ TMD-26485 Fluid Flow Rate field label changes based on Unit System
 TMD-26488 Fluid Flow Rate column visibility in Item List
 ---
 ## Test Data
-### Models
-#### Model
-1. `Class` : `HVAC`
-2. `Subclass` : `Heat Rejection`
-3. `Make` : `3Com`
-4. `Model Name` : `HeatRejectionModel26477`
-5. `Mounting` : `Rackable`
-6. `Form Factor` : `Fixed`
-7. `Height` : `1`
-8. `Compensation Factor` : `50`
-9. `Nominal Capacity (Tons)` : `100`
-10. `Airflow Rate (cfm)` : `100`
+### Model
+- `Class` : `HVAC`
+- `Subclass` : `Heat Rejection`
+- `Make` : `3Com`
+- `Model Name` : `HeatRejectionModel26477`
+- `Mounting` : `Rackable`
+- `Form Factor` : `Fixed`
+- `Height` : `1`
+- `Compensation Factor` : `50`
+- `Nominal Capacity (Tons)` : `100`
+- `Airflow Rate (cfm)` : `100`
 
-### Items
-#### Item
-1. `Make` : `3Com`
-2. `Model` : `HeatRejectionModel26477`
-3. `Name` : `HEATREJECTIONITEM26477`
-4. `Status` : `Planned`
-5. `Location` : `Site A`
-6. `Cabinet` : `1A`
-7. `U Position` : `Above`
+### Item
+- `Make` : `3Com`
+- `Model` : `HeatRejectionModel26477`
+- `Name` : `HEATREJECTIONITEM26477`
+- `Status` : `Planned`
+- `Location` : `Site A`
+- `Cabinet` : `1A`
+- `U Position` : `Above`
 ---
 ## Test Steps
 (Tag) -> Single Process Only
