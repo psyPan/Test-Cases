@@ -17,12 +17,12 @@ TMD-26583 Verify Airflow Rate and Fluid Flow Rate labels/units update by Unit Sy
 - Enter -1 in Airflow Rate, and validate that the user is not able to save the model, and a validation error appears
 
 5. Verify the Fluid Flow Rate field is optional by leaving it blank and saving.
-~~Model saves successfully, and no required~~ field error is shown.
+~~Model saves successfully, and no required~~ field error is shown. #(There is actually no error)
 
 6. Enter a value > 0 with up to 2 decimals in Fluid Flow Rate (e.g., 12.34) and save.
 - Value is accepted and saved successfully.
 - Stored/displayed value keeps up to 2 decimals.
-- Enter a value with more than 2 decimals (e.g., 12.345) and attempt to save and verify that the system enforces numeric(10,3) behavior
+- Enter a value with more than 2 decimals (e.g., 12.345) and attempt to save and verify that the system enforces numeric(10,3) behavior #(12.345->12.34, 12.3456->12.35)
 -Enter 0 in Fluid Flow Rate and attempt to save, then verify that a validation error is displayed and the save is blocked.
 -Enter a negative value (e.g., -5) in Fluid Flow Rate and attempt to save and verify that: Validation error is displayed, and the save is blocked.
 

@@ -3,7 +3,6 @@ TMD-26580 Verify calculation of Sensible Capacity (Tons) based on Compensation F
 TMD-26581 Verify calculation of Sensible Capacity (kW) based on Compensation Factor (%) and Nominal Capacity (kW)
 TMD-26582 Verify capacity conversion formulas, auto-population, and recalculation across all capacity fields
 
----
 ## Test Data
 ### Model
 - `Class` : `HVAC`
@@ -14,7 +13,6 @@ TMD-26582 Verify capacity conversion formulas, auto-population, and recalculatio
 - `Form Factor` : `Fixed`
 - `Height` : `1`
 
----
 ## Test Steps
 1. Go To Models Library
 2. Open Model `HeatRejectionModel26575` With Edit Mode
