@@ -25,23 +25,26 @@ TMD-26585 Verify Heat Rejection import template contains required capacity and f
 1. Go To File Import Library
 2. Click `Item Models Import Template`
 3. Open Downloaded File
-4. **Verify Columns For Heat Rejection Subclass Are Visible In Models Template**
+4. **Verify Column Headers For Heat Rejection Subclass Are Visible In Models Template**
 5. **Verify Fields Of Imported Model Are Same As Import File**
    1. Create Model `HeatRejectionModel26585` By File Import
    2. Go To Models Library Page
    3. Open `HeatRejectionModel26585` With View Mode
-6. **Verify Verify Model Fields Are Updated By Edited Import File**
+   4. Verify Model Fields
+6. **Verify Fields Values Of Exported File Are Same As Model's**
    1. Back To Models Library Page
    2. Click Export Button To Export Details into an Import Template, Group By Model
-   3. Change Value In Exported CSV(另一個CSV也行)
-      1. Edit `Operation` : `EDIT`
-      2. Edit `Compensation Factor` : `90`
-      3. Edit `Nominal Capacity (Tons)` : `40`
-      4. Edit `Nominal Capacity (kW)` : `140.67`
-      5. Edit `Airflow Rate (cfm)` : `130`
-      6. Edit `Fluid Flow Rate (gpm)` : `150`
-   4. Go To File Import Page
-   5. Edit Model `HeatRejectionModel26585` By File Import
-   6. Go To Models Library
-   7. Open Model `HeatRejectionModel26585` With View Mode
-   8. Verify Model Fields Are Updated By Edited Import File
+   3. Verify Model Fields Values In Expored File
+7. **Verify Model Fields Value Can Be Edited By File Import**
+   1. Fill Value In CSV
+      1. `Operation` : `EDIT`
+      2. `Compensation Factor` : `90`
+      3. `Nominal Capacity (Tons)` : `40`
+      4. `Nominal Capacity (kW)` : `140.67`
+      5. `Airflow Rate (cfm)` : `130`
+      6. `Fluid Flow Rate (gpm)` : `150`
+   2. Go To File Import Page
+   3. Edit Model `HeatRejectionModel26585` By File Import
+   4. Go To Models Library
+   5. Open Model `HeatRejectionModel26585` With View Mode
+   6.  Verify Model Fields Are Updated
