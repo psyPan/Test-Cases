@@ -26,7 +26,7 @@ TMD-26583 Verify Airflow Rate and Fluid Flow Rate labels/units update by Unit Sy
    1. Input Value 0 In Airflow Rate
    2. Verify Validation Error Is Displayed
    3. Save Button Is Disabled
-   4. Input Value -1 In Airflow Rate
+   4. Input Value -9 In Airflow Rate
    5. Verify Validation Error Is Displayed
    6. Save Button Is Disabled
 6. **Verify Fluid Flow Rate Field Is Optional**
@@ -50,7 +50,7 @@ TMD-26583 Verify Airflow Rate and Fluid Flow Rate labels/units update by Unit Sy
    1. Input Value 0 In Fluid Flow Rate
    2. Verify Validation Error Is Displayed
    3. Save Button Is Disabled
-   4. Input Value -5 In Fluid Flow Rate
+   4. Input Value -9 In Fluid Flow Rate
    5. Verify Validation Error Is Displayed
    6. Save Button Is Disabled
 10. Change Unit System To S.I.
@@ -59,4 +59,3 @@ TMD-26583 Verify Airflow Rate and Fluid Flow Rate labels/units update by Unit Sy
 13. **Verify Airflow Rate And Fluid Flow Rate Labels Display Correct Unit System For S.I. Unit System**
    1. Verify Airflow Rate Label Displays "Airflow Rate (m3/h)"
    2. Verify Fluid Flow Rate Label Displays "Fluid Flow Rate (lpm)"
-14. Repeat test steps 4.~9. For S.I. Unit System

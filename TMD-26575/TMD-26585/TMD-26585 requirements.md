@@ -1,7 +1,7 @@
 TMD-26585 Verify Heat Rejection import template contains required capacity and flow columns
 
 ## Test step
-1. Download Models tempalte and select the Heat Rejection import sheet.
+1. Download Models tempalte and select the Heat Rejection import sheet. (HVAC)
 Verify the column headers include the following:
 Compensation Factor
 Nominal Capacity (Tons)
