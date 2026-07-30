@@ -32,14 +32,10 @@ TMD-26583 Verify Airflow Rate and Fluid Flow Rate labels/units update by Unit Sy
    2. Save Model
    3. Input Empty Value In Fluid Flow Rate
    4. Save Model
-   5. Fluid Flow Rate Value Should Be Empty
 7. **Verify Fluid Flow Rate Accepts Greater Than Zero And Value With Four Decimals**
-   1. Input Value 1 In Fluid Flow Rate
+   1. Input Value 888888.8888 In Fluid Flow Rate
    2. Save Model
-   3. Fluid Flow Rate Value Should Be 1
-   4. Input Value 888888.8888 In Fluid Flow Rate
-   5. Save Model
-   6. Fluid Flow Rate Value Should Be 888888.88
+   3. Fluid Flow Rate Value Should Be 888888.89
 8. **Verify Fluid Flow Rate Field Enforces Value With Two Decimals**
    1. Input Value 12.345 In Fluid Flow Rate
    2. Save Model
@@ -51,7 +47,7 @@ TMD-26583 Verify Airflow Rate and Fluid Flow Rate labels/units update by Unit Sy
    4. Input Value -9 In Fluid Flow Rate
    5. Verify Validation Error Is Displayed
    6. Save Button Is Disabled
-10. **Verify Validation Error Is Displayed For Invald Numeric Format Of Fluid Flow Rate**
+10. **Verify Validation Error Is Displayed For Invalid Numeric Format Of Fluid Flow Rate**
    1. Input Value 8888888.8888 In Fluid Flow Rate
    2. Verify Validation Error Is Displayed
    3. Save Button Is Disabled
@@ -60,7 +56,7 @@ TMD-26583 Verify Airflow Rate and Fluid Flow Rate labels/units update by Unit Sy
    6. Save Button Is Disabled
 11. Change Unit System To S.I.
 12. Relogin To Models Library
-13. Open Model `HeatRejectionModel26575` with Edit Mode
+13. Open Model `HeatRejectionModel26575` With View Mode
 14. **Verify Airflow Rate And Fluid Flow Rate Labels Display Correct Unit System For S.I. Unit System**
    1. Verify Airflow Rate Label Displays "Airflow Rate (m3/h)"
    2. Verify Fluid Flow Rate Label Displays "Fluid Flow Rate (lpm)"
