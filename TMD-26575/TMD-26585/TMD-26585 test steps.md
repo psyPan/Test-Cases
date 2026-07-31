@@ -1,7 +1,6 @@
 **Goal**
 TMD-26585 Verify Heat Rejection import template contains required capacity and flow columns
 
----
 ## Test Data
 ### Model
 - `Operation` : `ADD`
@@ -20,13 +19,12 @@ TMD-26585 Verify Heat Rejection import template contains required capacity and f
 - `Airflow Rate (cfm)` : `100`
 - `Fluid Flow Rate (gpm)` : `100`
 
----
 ## Test Steps
-1. Go To File Import Library
+1. Go To File Import Page
 2. Click `Item Models Import Template`
 3. Open Downloaded File
 4. **Verify Column Headers For Heat Rejection Subclass Are Visible In Models Template**
-5. **Verify Fields Of Imported Model Are Same As Import File**
+5. **Verify Fields Values Of Imported Model Are Same As Import File**
    1. Create Model `HeatRejectionModel26585` By File Import
    2. Go To Models Library Page
    3. Open `HeatRejectionModel26585` With View Mode
@@ -34,7 +32,8 @@ TMD-26585 Verify Heat Rejection import template contains required capacity and f
 6. **Verify Fields Values Of Exported File Are Same As Model's**
    1. Back To Models Library Page
    2. Click Export Button To Export Details into an Import Template, Group By Model
-   3. Verify Model Fields Values In Expored File
+   3. Verify Column Headers In Exported File
+   4. Verify Model Fields Values In Exported File
 7. **Verify Model Fields Value Can Be Edited By File Import**
    1. Fill Value In CSV
       1. `Operation` : `EDIT`
