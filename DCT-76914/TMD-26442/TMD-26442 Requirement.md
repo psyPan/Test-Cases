@@ -1,4 +1,4 @@
-TMD-26442 Verfiy that if the column is not in the import sheet, it's value is assumed to be TRUE when add a new breaker via import
+TMD-26442 Verfiy that if the column is not in the import sheet, its value is assumed to be TRUE when add a new breaker via import
 ## Test Steps
 1. Remove the "Derate Amps" column in the import template
 2. Add the following breakers via import:

@@ -1,5 +1,5 @@
 **Goal**
-TMD-26585 Verify Heat Rejection import template contains required capacity and flow columns
+TMD-26586 Verify Heat Rejection import template contains required capacity and flow columns
 
 ---
 ## Test Data
@@ -58,7 +58,7 @@ TMD-26585 Verify Heat Rejection import template contains required capacity and f
 #### Model F (Invalid Compensation Factor)
 - `Operation` : `ADD`
 - `Object` : `HEAT REJECTION-RACKABLE`
-- `Name` : `HeatRejectionModel26586-5`
+- `Name` : `HeatRejectionModel26586-6`
 - `Make` : `3Com`
 - `Location` : `Site A`
 - `Compensation Factor` : `0`
@@ -66,7 +66,7 @@ TMD-26585 Verify Heat Rejection import template contains required capacity and f
 #### Model G (Invalid Nominal Capacity (Tons))
 - `Operation` : `ADD`
 - `Object` : `HEAT REJECTION-RACKABLE`
-- `Name` : `HeatRejectionModel26586-5`
+- `Name` : `HeatRejectionModel26586-7`
 - `Make` : `3Com`
 - `Location` : `Site A`
 - `Nominal Capacity (Tons)` : `0`
@@ -74,7 +74,7 @@ TMD-26585 Verify Heat Rejection import template contains required capacity and f
 #### Model H (Invalid Nominal Capacity (kW))
 - `Operation` : `ADD`
 - `Object` : `HEAT REJECTION-RACKABLE`
-- `Name` : `HeatRejectionModel26586-5`
+- `Name` : `HeatRejectionModel26586-8`
 - `Make` : `3Com`
 - `Location` : `Site A`
 - `Nominal Capacity (kW)` : `0`
@@ -82,7 +82,7 @@ TMD-26585 Verify Heat Rejection import template contains required capacity and f
 #### Model I (Invalid Airflow Rate (cfm) (≤ 0 or invalid format))
 - `Operation` : `ADD`
 - `Object` : `HEAT REJECTION-RACKABLE`
-- `Name` : `HeatRejectionModel26586-5`
+- `Name` : `HeatRejectionModel26586-9`
 - `Make` : `3Com`
 - `Location` : `Site A`
 - `Airflow Rate (cfm)` : `0`

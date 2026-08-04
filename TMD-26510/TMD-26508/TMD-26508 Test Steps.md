@@ -25,9 +25,9 @@ TMD-26508 Verify the auto power budget fields
 1. Go To Models Library Page
 2. open show hide column
 3. **Verify The Auto Power Budget Fields Are Not Visible In Show/Hide Column Dialog Of Models Library**
-4. Open Model `CoolingUnitModel26510`
+4. Open Model `CoolingUnitModel26510` With View Mode
 5. Click `Power Supply Ports` Subtab
-6. **Verify The Auto Power Budget Fields Are Not Visible In Model Detail**
+6. **Verify Auto Power Budget Fields Do Not Exist In Model Detail Power Supply Subtab**
     (TMD-17784     
     Items List::Open Item With Edit Mode    ${itemName}
     Item Detail::Wait Until Subtab Field Is Not Visible    ${dataCircuitCustomField17791.name}
