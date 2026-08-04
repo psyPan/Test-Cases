@@ -20,7 +20,16 @@ TMD-26400 Test subclass change in existing Manifold model
 - `Mounting` : `Rackable`
 - `Form Factor` : `Fixed`
 - `Height` : `1`
----
+
+#### Item 1
+- `Make` : `3Com`
+- `Model` : `ManifoldModel26406`
+- `Name` : `MANIFOLDITEM26406`
+- `Status` : `Planned`
+- `Location` : `Site A`
+- `Cabinet` : `1A`
+- `U Position` : `Above`
+
 ## Test Steps
 1. **Verify Error Message Is Visible When Changing In Use Model's Subclass**
    1. Open Model `ManifoldModel26406` With Edit Mode
