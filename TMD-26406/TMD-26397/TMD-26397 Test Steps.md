@@ -1,6 +1,5 @@
 **Goal**
 TMD-26397 Check the manifold subclass in various screens
-TMD-26402 Test Floor Maps search for Manifold custom field
 ---
 ## Test Data
 ### Model
@@ -16,7 +15,7 @@ TMD-26402 Test Floor Maps search for Manifold custom field
 #### Item 1 (Create during case setup)
 - `Make` : `3Com`
 - `Model` : `ManifoldModel26406`
-- `Name` : `MANIFOLDITEM26397-1`
+- `Name` : `MANIFOLDITEM26406`
 - `Status` : `Planned`
 - `Location` : `Site A`
 - `Cabinet` : `1A`
@@ -25,7 +24,7 @@ TMD-26402 Test Floor Maps search for Manifold custom field
 #### Item 2 (Create using UI In Project-Items Subtab)
 - `Make` : `3Com`
 - `Model` : `ManifoldModel26406`
-- `Name` : `MANIFOLDITEM26397-2`
+- `Name` : `MANIFOLDITEM26397`
 - `Status` : `Planned`
 - `Location` : `Site A`
 - `Cabinet` : `1A`
@@ -39,7 +38,7 @@ TMD-26402 Test Floor Maps search for Manifold custom field
 
 ## Test Steps
 1. **Verify Manifold Items Are Visible In Project-Items Subtab After Adding With Different Methods**
-   1. Open `MANIFOLDITEM26397-1` With Edit Mode
+   1. Open `MANIFOLDITEM26406` With Edit Mode
    2. Click Asset and Maintenance Subtab
    3. Click Project Number Field
    4. Select `PRJ26397`
@@ -48,18 +47,18 @@ TMD-26402 Test Floor Maps search for Manifold custom field
    7. Open `PROJECT26397` With Edit Mode
    8. Click Items Subtab
    9. Click Add An Item
-   10. Create Item `MANIFOLDITEM26397-2`
+   10. Create Item `MANIFOLDITEM26397`
    11. Save Item
    12. Both Items Should Be Visible In Project-items Subtab
 2. **Verify Manifold Subclass Is Visible In Subclass Dropdown Of Item Selection Grid When Creating Or Modifiying A Circuit**
    1. Go To Circuit Management Page
    2. Open `NEWPDU-7J-485737:Inlet 1` With Edit Mode
    3. Click First Node
-   4. Open Subclass Dropdown
+   4. Open Subclass Dropdown In Item Selection Grid
    5. Verify Manifold Is Visible Under HVAC Class
    6. Close Circuit Without Saving
    7. Click Add a Circuit Button
-   8. Open Subclass Dropdown
+   8. Open Subclass Dropdown In Item Selection Grid
    9. Verify Manifold Is Visible Under HVAC Class
 3. **Verify Manifold Subclass Is Visible In Ticket-Items Subtab**
    1. Go To Tickets Page
@@ -70,7 +69,7 @@ TMD-26402 Test Floor Maps search for Manifold custom field
    6. Click Assign an Item Button
    7. Input HVAC In Class Dropdown
    8. Input Manifold In Subclass Dropdown
-   9. Select Item `MANIFOLDITEM26397-1`
+   9. Select Item `MANIFOLDITEM26406`
    10. Click Select Items Button
    11. Verify Manifold Item Is Visible On Grid
 4. **Verify Manifold Subclass Is Visible In Subclass Dropdown Of Item Selection Grid In Data Network Diagram Page**
@@ -83,7 +82,7 @@ TMD-26402 Test Floor Maps search for Manifold custom field
       2. Click Custom Fields Subtab
       3. Create Custom Field For HVAC/Manifold Subclass Item
          1. Input Custom Field Label : `fieldManifoldItem26397`
-         2. Select applies to : `item`
+         2. Select applies to : `Item`
          3. Select Class (Subclass) : `HVAC/Manifold`
          4. Select Type : `Text`
          5. Click Add Button
@@ -122,7 +121,7 @@ TMD-26402 Test Floor Maps search for Manifold custom field
       5. Verify just input field of `fieldAll26397` turns green
 6. **Verify New Created Custom Subtab And Custom Fields Are Visible In Item Detail Of Manifold Subclass**
    1. Go To Items List Page
-   2. Open Item `MANIFOLDITEM26397-1` with view mode
+   2. Open Item `MANIFOLDITEM26406` with view mode
    3. Verify `subtabItem26397` subtab is visible
    4. Click `subtabItem26397` subtab
    5. Verify Custom Fields `fieldAllItem26397` and `fieldManifoldItem26397` are visible.
