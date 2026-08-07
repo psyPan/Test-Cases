@@ -4,8 +4,7 @@ TMD-26405 Check Manifold subclass in search field in Floor Maps
 
 --- 
 ## Test Data
-### Models
-#### Model
+### Model
 - `Class` : `HVAC`
 - `Subclass` : `Manifold`
 - `Make` : `3Com`
@@ -28,14 +27,14 @@ TMD-26405 Check Manifold subclass in search field in Floor Maps
 1. Go To Items List Page
 2. Open `MANIFOLDITEM26406` With Edit Mode
 3. Click Custom Fields Subtab
-4. Input `HG-text area` `Text26402_05`
+4. Input `CF Text` `Text26402_05`
 5. Save Item
 6. Go To Floor Maps Page
 7. Click Search Button
 8. **Verify Functionality Of Search Bar In Floor Maps Page By Custom Field Value Of Manifold Item**
-   1. Input `HG-text area:Text26402_05`
+   1. Input `CF Text:Text26402_05`
    2. Item With Custom Field Value Should Be Filtered In Search Results Grid
    3. Clear Search Grid
-9. **Verify Subclass Manifold Can Be Searched In Floor Maps Page**
+9. **Verify Subclass Manifold Is Visible In Dropdown Of Search Bar In Floor Maps Page**
    1. Input `Subclass:`
    2. Manifold Should Be Visible And Selectable In Dropdown

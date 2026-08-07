@@ -37,7 +37,8 @@ TMD-26397 Check the manifold subclass in various screens
 
 
 ## Test Steps
-1. **Verify Manifold Items Are Visible In Project-Items Subtab After Adding With Different Methods**
+1. Go To Items List Page
+2. **Verify Manifold Items Are Visible In Project-Items Subtab After Adding With Different Methods**
    1. Open `MANIFOLDITEM26406` With Edit Mode
    2. Click Asset and Maintenance Subtab
    3. Click Project Number Field
@@ -50,7 +51,7 @@ TMD-26397 Check the manifold subclass in various screens
    10. Create Item `MANIFOLDITEM26397`
    11. Save Item
    12. Both Items Should Be Visible In Project-items Subtab
-2. **Verify Manifold Subclass Is Visible In Subclass Dropdown Of Item Selection Grid When Creating Or Modifiying A Circuit**
+3. **Verify Manifold Subclass Is Visible In Subclass Dropdown Of Item Selection Grid When Creating Or Modifiying A Circuit**
    1. Go To Circuit Management Page
    2. Open `NEWPDU-7J-485737:Inlet 1` With Edit Mode
    3. Click First Node
@@ -60,7 +61,7 @@ TMD-26397 Check the manifold subclass in various screens
    7. Click Add a Circuit Button
    8. Open Subclass Dropdown In Item Selection Grid
    9. Verify Manifold Is Visible Under HVAC Class
-3. **Verify Manifold Subclass Is Visible In Ticket-Items Subtab**
+4. **Verify Manifold Subclass Is Visible In Ticket-Items Subtab**
    1. Go To Tickets Page
    2. Click Add a Ticket Button
    3. Input Ticket Number `Ticket26397`
@@ -72,11 +73,11 @@ TMD-26397 Check the manifold subclass in various screens
    9. Select Item `MANIFOLDITEM26406`
    10. Click Select Items Button
    11. Verify Manifold Item Is Visible On Grid
-4. **Verify Manifold Subclass Is Visible In Subclass Dropdown Of Item Selection Grid In Data Network Diagram Page**
+5. **Verify Manifold Subclass Is Visible In Subclass Dropdown Of Item Selection Grid In Data Network Diagram Page**
    1. Go To Data Network Diagram Page
    2. Click Subclass Dropdown
    3. Verify Manifold Subclass Under HVAC Class Is Visible
-5. **Verify Custom Field Features Of HVAC Manifold Subclass In Field Management Page**
+6. **Verify Custom Field Features Of HVAC Manifold Subclass In Field Management Page**
    1. Setup In Field Management Page
       1. Go to Field Management Page
       2. Click Custom Fields Subtab
@@ -119,13 +120,13 @@ TMD-26397 Check the manifold subclass in various screens
       3. Verify input fields beside `fieldAll26397` and `fieldHVAC26397` turn green
       4. Select `Network/Blade` option in dropdown
       5. Verify just input field of `fieldAll26397` turns green
-6. **Verify New Created Custom Subtab And Custom Fields Are Visible In Item Detail Of Manifold Subclass**
+7. **Verify New Created Custom Subtab And Custom Fields Are Visible In Item Detail Of Manifold Subclass**
    1. Go To Items List Page
    2. Open Item `MANIFOLDITEM26406` with view mode
    3. Verify `subtabItem26397` subtab is visible
    4. Click `subtabItem26397` subtab
    5. Verify Custom Fields `fieldAllItem26397` and `fieldManifoldItem26397` are visible.
-7. **Verify New Created Custom Subtab And Custom Field Are Visible In Moel Detail Of Manifold Subclass**
+8. **Verify New Created Custom Subtab And Custom Field Are Visible In Model Detail Of Manifold Subclass**
    1. Go To Models Library Page
    2. Open Item `ManifoldModel26406` with view mode
    3. Verify `subtabModel26397` subtab is visible
