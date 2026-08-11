@@ -3,8 +3,7 @@ TMD-26404 Check Manifold subclass in Color Code options for Subclass field
 
 ---
 ## Test Data
-### Models
-#### Model
+### Model
 - `Class` : `HVAC`
 - `Subclass` : `Manifold`
 - `Make` : `3Com`
@@ -33,4 +32,4 @@ TMD-26404 Check Manifold subclass in Color Code options for Subclass field
    4. Filter Manifold
    5. Verify Manifold Is Visible In Dropdown
    6. Click Apply Button
-   7.  Verify Manifold Item Is Visible In Color Code List Grid
+   7. Verify Manifold Item Is Visible In Color Code List Grid
