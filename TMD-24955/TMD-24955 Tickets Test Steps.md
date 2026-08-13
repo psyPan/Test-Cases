@@ -13,33 +13,33 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
 ### Tooltips
 #### Ticket
 - Standard Fields
-   - `External System` : `tooltip24955`
-   - `Ticket Number` : `tooltip24955`
-   - `Summary` : `tooltip24955`
-   - `Ticket Type` : `tooltip24955`
-   - `Ticket Purpose` : `tooltip24955`
-   - `Location` : `tooltip24955`
-   - `dcTrack Status` : `tooltip24955`
-   - `Status Date` : `tooltip24955`
-   - `Due Date` : `tooltip24955`
-   - `Priority` : `tooltip24955`
-   - `Severity` : `tooltip24955`
-   - `Project Number` : `tooltip24955`
-   - `Assigned To` : `tooltip24955`
+   - `External System` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Ticket Number` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Summary` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Ticket Type` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Ticket Purpose` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Location` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `dcTrack Status` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Status Date` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Due Date` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Priority` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Severity` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Project Number` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Assigned To` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 - Existing Custom Fields
-   - `Ticket_CF_checkbox` : `tooltip24955`
+   - `Ticket_CF_checkbox` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 - Newly Created Custom Fields
-   - `TextCustomField24955` : `tooltip24955`
-   - `TextAreaCustomField24955` : `tooltip24955`
-   - `NumericCustomField24955` : `tooltip24955`
-   - `DateCustomField24955` : `tooltip24955`
-   - `CheckboxCustomField24955` : `tooltip24955`
-   - `SingleSelectCustomField24955` : `tooltip24955`
-   - `MultiSelectCustomField24955` : `tooltip24955`
-   - `TagsCustomField24955` : `tooltip24955`
-   - `ContactsCustomField24955` : `tooltip24955`
+   - `TextCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `TextAreaCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `NumericCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `DateCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `CheckboxCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `SingleSelectCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `MultiSelectCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `TagsCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `ContactsCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 ## Test Steps
 1. **Verify Custom Tooltips Can Be Created In Field Properties Subtab Of Field Management Page**
@@ -48,12 +48,12 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
    3. **Verify Custom Tooltips For Standard Fields Can Be Created**
       1. Filter `Standard` In Type Column
       2. Verify Only Standard Fields Are Displayed
-      3. Input Tooltip `tooltip24955` For Standard Fields In Test Data
+      3. Input Tooltip `\/ 哈囉 très bien teşekkürler tschüss 24955` For Standard Fields In Test Data
       4. Click Save Button
    4. **Verify Custom Tooltips For Custom Fields Can Be Created**
       1. Filter `Custom` In Type Column
       2. Verify Only Custom Fields Are Displayed
-      3. Input Tooltip `tooltip24955` For Existing And Newly Created Custom Fields In Test Data
+      3. Input Tooltip `\/ 哈囉 très bien teşekkürler tschüss 24955` For Existing And Newly Created Custom Fields In Test Data
       4. Click Save Button
 2. Add Newly Created Custom Fields Inside Subtab
    1. Go To Field Management Page/Design Subtabs

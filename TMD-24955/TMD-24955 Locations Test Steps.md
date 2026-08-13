@@ -10,35 +10,35 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
 ### Tooltips
 #### Location
 - Standard Fields
-   - `Node Code` : `tooltip24955`
-   - `Level in Heirarchy` : `tooltip24955`
-   - `Parent` : `tooltip24955`
-   - `Description` : `tooltip24955`
-   - `Type` : `tooltip24955`
-   - `Owner` : `tooltip24955`
-   - `Can Contain Assets` : `tooltip24955`
-   - `Power Capacity (kW)` : `tooltip24955`
-   - `Power IQ Host Association` : `tooltip24955`
-   - `VM Manager` : `tooltip24955`
-   - `AC Virtual Power Chain` : `tooltip24955`
-   - `DC Virtual Power Chain` : `tooltip24955`
-   - `System Default Location` : `tooltip24955`
-   - Address Subtab -> `Country` : `tooltip24955`
-   - Dimensions Subtab -> `Area` : `tooltip24955`
+   - `Node Code` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Level in Hierarchy` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Parent` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Description` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Type` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Owner` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Can Contain Assets` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Power Capacity (kW)` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Power IQ Host Association` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `VM Manager` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `AC Virtual Power Chain` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `DC Virtual Power Chain` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `System Default Location` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - Address Subtab -> `Country` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - Dimensions Subtab -> `Area` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 - Existing Custom Fields
-   - `Company Name` : `tooltip24955`
+   - `Company Name` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 - Newly Created Custom Fields
-   - `TextCustomField24955` : `tooltip24955`
-   - `TextAreaCustomField24955` : `tooltip24955`
-   - `NumericCustomField24955` : `tooltip24955`
-   - `DateCustomField24955` : `tooltip24955`
-   - `CheckboxCustomField24955` : `tooltip24955`
-   - `SingleSelectCustomField24955` : `tooltip24955`
-   - `MultiSelectCustomField24955` : `tooltip24955`
-   - `TagsCustomField24955` : `tooltip24955`
-   - `ContactsCustomField24955` : `tooltip24955`
+   - `TextCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955` chinese, france/german, turkish
+   - `TextAreaCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `NumericCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `DateCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `CheckboxCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `SingleSelectCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `MultiSelectCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `TagsCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `ContactsCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 ## Test Steps
 1. **Verify Custom Tooltips Can Be Created In Field Properties Subtab Of Field Management Page**
@@ -47,12 +47,12 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
    3. **Verify Custom Tooltips For Standard Fields Can Be Created**
       1. Filter `Standard` In Type Column
       2. Verify Only Standard Fields Are Displayed
-      3. Input Tooltip `tooltip24955` For Standard Fields In Test Data
+      3. Input Tooltip `\/ 哈囉 très bien teşekkürler tschüss 24955` For Standard Fields In Test Data
       4. Click Save Button
    4. **Verify Custom Tooltips For Custom Fields Can Be Created**
       1. Filter `Custom` In Type Column
       2. Verify Only Custom Fields Are Displayed
-      3. Input Tooltip `tooltip24955` For Existing And Newly Created Custom Fields In Test Data
+      3. Input Tooltip `\/ 哈囉 très bien teşekkürler tschüss 24955` For Existing And Newly Created Custom Fields In Test Data
       4. Click Save Button
 2. Add Newly Created Custom Fields Inside Subtab
    1. Go To Field Management Page/Design Subtabs

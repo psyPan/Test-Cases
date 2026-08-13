@@ -10,30 +10,30 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
 ### Tooltips
 #### Project
 - Standard Fields
-   - `Project Number` : `tooltip24955`
-   - `Project Name` : `tooltip24955`
-   - `Description` : `tooltip24955`
-   - `Location` : `tooltip24955`
-   - `Cabinets` : `tooltip24955`
-   - `URs` : `tooltip24955`
-   - `kW` : `tooltip24955`
-   - `Item Cost` : `tooltip24955`
-   - `Misc Cost` : `tooltip24955`
-   - `Estimated` : `tooltip24955`
-   - `Actual` : `tooltip24955`
-   - `Status` : `tooltip24955`
-   - `Substatus` : `tooltip24955`
+   - `Project Number` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Project Name` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Description` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Location` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Cabinets` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `URs` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `kW` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Item Cost` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Misc Cost` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Estimated` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Actual` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Status` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Substatus` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 - Newly Created Custom Fields
-   - `TextCustomField24955` : `tooltip24955`
-   - `TextAreaCustomField24955` : `tooltip24955`
-   - `NumericCustomField24955` : `tooltip24955`
-   - `DateCustomField24955` : `tooltip24955`
-   - `CheckboxCustomField24955` : `tooltip24955`
-   - `SingleSelectCustomField24955` : `tooltip24955`
-   - `MultiSelectCustomField24955` : `tooltip24955`
-   - `TagsCustomField24955` : `tooltip24955`
-   - `ContactsCustomField24955` : `tooltip24955`
+   - `TextCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `TextAreaCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `NumericCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `DateCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `CheckboxCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `SingleSelectCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `MultiSelectCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `TagsCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `ContactsCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 ## Test Steps
 1. **Verify Custom Tooltips Can Be Created In Field Properties Subtab Of Field Management Page**
@@ -42,12 +42,12 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
    3. **Verify Custom Tooltips For Standard Fields Can Be Created**
       1. Filter `Standard` In Type Column
       2. Verify Only Standard Fields Are Displayed
-      3. Input Tooltip `tooltip24955` For Standard Fields In Test Data
+      3. Input Tooltip `\/ 哈囉 très bien teşekkürler tschüss 24955` For Standard Fields In Test Data
       4. Click Save Button
    4. **Verify Custom Tooltips For Custom Fields Can Be Created**
       1. Filter `Custom` In Type Column
       2. Verify Only Custom Fields Are Displayed
-      3. Input Tooltip `tooltip24955` For Newly Created Custom Fields In Test Data
+      3. Input Tooltip `\/ 哈囉 très bien teşekkürler tschüss 24955` For Newly Created Custom Fields In Test Data
       4. Click Save Button
 2. Add Newly Created Custom Fields Inside Subtab
    1. Go To Field Management Page/Design Subtabs

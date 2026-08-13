@@ -10,35 +10,35 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
 ### Tooltips
 #### Model
 - Standard Fields
-   - `Class` : `tooltip24955`
-   - `Subclass` : `tooltip24955`
-   - `Make` : `tooltip24955`
-   - `Model Name` : `tooltip24955`
-   - `Part Number` : `tooltip24955`
-   - `Description` : `tooltip24955`
-   - `Mounting` : `tooltip24955`
-   - `Form Factor` : `tooltip24955`
-   - `Height` : `tooltip24955`
-   - `Width` : `tooltip24955`
-   - `Weight` : `tooltip24955`
-   - `Rack units` : `tooltip24955`
-   - `Depth` : `tooltip24955`
-   - `Version` : `tooltip24955`
-   - `Model In Use` : `tooltip24955`
-   - `Don't Update` : `tooltip24955`
-   - `My Company Standard` : `tooltip24955`
-   - `Notes` : `tooltip24955`
+   - `Class` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Subclass` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Make` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Model Name` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Part Number` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Description` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Mounting` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Form Factor` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Height` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Width` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Weight` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Rack units` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Depth` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Version` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Model In Use` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Don't Update` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `My Company Standard` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Notes` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 - Newly Created Custom Fields
-   - `TextCustomField24955` : `tooltip24955`
-   - `TextAreaCustomField24955` : `tooltip24955`
-   - `NumericCustomField24955` : `tooltip24955`
-   - `DateCustomField24955` : `tooltip24955`
-   - `CheckboxCustomField24955` : `tooltip24955`
-   - `SingleSelectCustomField24955` : `tooltip24955`
-   - `MultiSelectCustomField24955` : `tooltip24955`
-   - `TagsCustomField24955` : `tooltip24955`
-   - `ContactsCustomField24955` : `tooltip24955`
+   - `TextCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `TextAreaCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `NumericCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `DateCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `CheckboxCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `SingleSelectCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `MultiSelectCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `TagsCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `ContactsCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 ## Test Steps
 1. **Verify Custom Tooltips Can Be Created In Field Properties Subtab Of Field Management Page**
@@ -47,12 +47,12 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
    3. **Verify Custom Tooltips For Standard Fields Can Be Created**
       1. Filter `Standard` In Type Column
       2. Verify Only Standard Fields Are Displayed
-      3. Input Tooltip `tooltip24955` For Standard Fields In Test Data
+      3. Input Tooltip `\/ 哈囉 très bien teşekkürler tschüss 24955` For Standard Fields In Test Data
       4. Click Save Button
    4. **Verify Custom Tooltips For Custom Fields Can Be Created**
       1. Filter `Custom` In Type Column
       2. Verify Only Custom Fields Are Displayed
-      3. Input Tooltip `tooltip24955` For Newly Created Custom Fields In Test Data
+      3. Input Tooltip `\/ 哈囉 très bien teşekkürler tschüss 24955` For Newly Created Custom Fields In Test Data
       4. Click Save Button
 2. Add Newly Created Custom Fields Inside Subtab
    1. Go To Field Management Page/Design Subtabs

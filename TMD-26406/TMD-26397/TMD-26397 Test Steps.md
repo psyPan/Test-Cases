@@ -120,7 +120,7 @@ TMD-26397 Check the manifold subclass in various screens
       3. Verify input fields beside `fieldAll26397` and `fieldHVAC26397` turn green
       4. Select `Network/Blade` option in dropdown
       5. Verify just input field of `fieldAll26397` turns green
-7. **Verify New Created Custom Subtab And Custom Fields Are Visible In Item Detail Of Manifold Subclass**
+7. **Verify New Created Custom Fields Are Visible In Item Detail Of Manifold Subclass**
    1. Go To Items List Page
    2. Open Item `MANIFOLDITEM26406` with view mode
    3. Verify `subtabItem26397` subtab is visible
