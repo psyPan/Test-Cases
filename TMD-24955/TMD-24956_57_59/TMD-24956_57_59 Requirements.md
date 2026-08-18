@@ -47,7 +47,7 @@ TMD-24959 Verify when the details page in view or edit modes of Items, Circuits,
 4. Double click any row.
 5. Move the cursor to hover any of the field's label.
 6. Verify there is a Field Name the same as the text in label in the appearing tooltip.
-7. Verify there is any Standard tooltip added for the field in the appearing tooltip. (What is standard tooltip? Where can I find it?) (Single-Process Only?)
+7. Verify there is any Standard tooltip added for the field in the appearing tooltip. 
 8. Verify there is a Custom Tooltip added in field management for this field in the appearing tooltip.
 9. Click the "Edit" button.
 10. Move the cursor to hover any of the field's label.
