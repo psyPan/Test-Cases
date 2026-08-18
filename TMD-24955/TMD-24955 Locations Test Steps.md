@@ -24,7 +24,6 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
    - `DC Virtual Power Chain` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
    - `System Default Location` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
    - Address Subtab -> `Country` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - Dimensions Subtab -> `Area` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 - Existing Custom Fields
    - `Company Name` : `\/ 哈囉 très bien teşekkürler tschüss 24955`

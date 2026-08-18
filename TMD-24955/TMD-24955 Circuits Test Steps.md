@@ -47,6 +47,11 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
       2. Verify Only Custom Fields Are Displayed
       3. Input Tooltip `\/ 哈囉 très bien teşekkürler tschüss 24955` For Newly Created Custom Fields In Test Data
       4. Click Save Button
+2. Add Newly Created Custom Fields Inside Subtab
+   1. Go To Field Management Page/Design Subtabs
+   2. Filter `Circuit` in Applies To Column
+   3. Select `Custom Fields`
+   4. Create New Panel And Drag Newly Created Custom Fields Into That Panel
 3. Go To Circuit Page
 4. **Verify Fields In Circuit Detail View Mode Page Displays Custom Tooltip**
    1. Open Circuit `1A1:58 - DCT3-NEXUS-5A-01B:P09` with View Mode
@@ -68,9 +73,15 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
    4. Close Circuit
 6. **Verify Fields In Create A Circuit Page Displays Custom Tooltip**
    1. Click Add a Circuit
-   2. Verify Custom Tooltip Of Standard Fields
+   2. Input First Node `RBAC0`
+   3. Select Port `E1`
+   4. Input Second Node `CIRAPI-SITE1`
+   5. Select Port `CIRAPI-Eth01`
+   6. Save circuit
+   7. Click Circuit Detail Button
+   8. Verify Custom Tooltip Of Standard Fields
       1. Verify Fields Have Custom Tooltip
       2. Verify Field Label Is Separated From Custom Tooltip By A Period
-   3. Verify Custom Tooltip Of Newly Created Custom Fields Of Different Types
+   9. Verify Custom Tooltip Of Newly Created Custom Fields Of Different Types
       1. Verify Fields Have Custom Tooltip
       2. Verify Field Label Is Separated From Custom Tooltip By A Period
