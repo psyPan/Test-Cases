@@ -29,7 +29,12 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
    - `ContactsCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 ## Test Steps
-1. **Verify Custom Tooltips Can Be Created In Field Properties Subtab Of Field Management Page**
+1. Add Newly Created Custom Fields Inside Subtab
+   1. Go To Field Management Page/Design Subtabs
+   2. Filter `Circuit` in Applies To Column
+   3. Select `Custom Fields`
+   4. Create New Panel And Drag Newly Created Custom Fields Into That Panel
+2. **Verify Custom Tooltips Can Be Created In Field Properties Subtab Of Field Management Page**
    1. Go To Field Management Page/Field Properties
    2. Input `Tooltip`, For `Circuit` In Dropdown
    3. **Verify Custom Tooltips For Standard Fields Can Be Created**
@@ -42,11 +47,6 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
       2. Verify Only Custom Fields Are Displayed
       3. Input Tooltip `\/ 哈囉 très bien teşekkürler tschüss 24955` For Newly Created Custom Fields In Test Data
       4. Click Save Button
-2. Add Newly Created Custom Fields Inside Subtab
-   1. Go To Field Management Page/Design Subtabs
-   2. Filter `Circuit` in Applies To Column
-   3. Select `Custom Fields`
-   4. Create New Panel And Drag Newly Created Custom Fields Into That Panel
 3. Go To Circuit Page
 4. **Verify Fields In Circuit Detail View Mode Page Displays Custom Tooltip**
    1. Open Circuit `1A1:58 - DCT3-NEXUS-5A-01B:P09` with View Mode
