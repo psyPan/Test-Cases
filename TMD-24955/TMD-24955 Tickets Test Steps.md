@@ -14,18 +14,9 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
 #### Ticket
 - Standard Fields
    - `External System` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Description` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
    - `Ticket Number` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Summary` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Ticket Type` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Ticket Purpose` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Location` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `dcTrack Status` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Status Date` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
    - `Due Date` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Priority` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Severity` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Project Number` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Assigned To` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 - Existing Custom Fields
    - `Ticket_CF_checkbox` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
