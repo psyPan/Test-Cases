@@ -11,18 +11,9 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
 #### Part
 - Standard Fields
    - `Class` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Make` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Model Name` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Part Number` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
    - `Description` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `OEM Part #` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `UPC/SKU` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Height` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Width` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Depth` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Weight` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Slot Type` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
    - `Times in Use` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
+   - `Notes` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 - Newly Created Custom Fields
    - `TextCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
