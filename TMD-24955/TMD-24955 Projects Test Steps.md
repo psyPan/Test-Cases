@@ -11,18 +11,9 @@ TMD-26788 Custom Defined Tooltip for a newly created Custom field in Location de
 #### Project
 - Standard Fields
    - `Project Number` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Project Name` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
    - `Description` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
    - `Location` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Cabinets` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `URs` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `kW` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Item Cost` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Misc Cost` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Estimated` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Actual` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
    - `Status` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
-   - `Substatus` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
 
 - Newly Created Custom Fields
    - `TextCustomField24955` : `\/ 哈囉 très bien teşekkürler tschüss 24955`
