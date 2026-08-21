@@ -36,27 +36,23 @@ TMD-26583 Verify Airflow Rate and Fluid Flow Rate labels/units update by Unit Sy
    1. Input Value 888888.8888 In Fluid Flow Rate
    2. Save Model
    3. Fluid Flow Rate Value Should Be 888888.89
-8. **Verify Fluid Flow Rate Field Enforces Value With Two Decimals**
-   1. Input Value 12.345 In Fluid Flow Rate
-   2. Save Model
-   3. Fluid Flow Rate Value Should Be 12.34 (測的時候2位數，PR 改成4位數)
-9. **Verify Fluid Flow Rate Field Rejects Value Smaller And Equal To Zero**
+8. **Verify Fluid Flow Rate Field Rejects Value Smaller And Equal To Zero**
    1. Input Value 0 In Fluid Flow Rate
    2. Verify Validation Error Is Displayed
    3. Save Button Is Disabled
    4. Input Value -9 In Fluid Flow Rate
    5. Verify Validation Error Is Displayed
    6. Save Button Is Disabled
-10. **Verify Validation Error Is Displayed For Invalid Numeric Format Of Fluid Flow Rate**
+9.  **Verify Validation Error Is Displayed For Invalid Numeric Format Of Fluid Flow Rate**
    1. Input Value 8888888.8888 In Fluid Flow Rate
    2. Verify Validation Error Is Displayed
    3. Save Button Is Disabled
    4. Input Value 888888.88888 In Fluid Flow Rate
    5. Verify Validation Error Is Displayed
    6. Save Button Is Disabled
-11. Change Unit System To S.I.
-12. Relogin To Models Library
-13. Open Model `HeatRejectionModel26575` With View Mode
-14. **Verify Airflow Rate And Fluid Flow Rate Labels Display Correct Unit System For S.I. Unit System**
+10. Change Unit System To S.I.
+11. Relogin To Models Library
+12. Open Model `HeatRejectionModel26575` With View Mode
+13. **Verify Airflow Rate And Fluid Flow Rate Labels Display Correct Unit System For S.I. Unit System**
    1. Verify Airflow Rate Label Displays "Airflow Rate (m3/h)"
    2. Verify Fluid Flow Rate Label Displays "Fluid Flow Rate (lpm)"
